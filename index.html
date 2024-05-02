@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>articulos e tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Razas de perro</title>
 </head>
+<header class="encabezado">
+    <h1>Razas de perro</h1>
+</header>
+<br>
 <body>
+
+    <select onchange="window.location.href=this.value;">
+        <option value="">Selecciona una raza</option>
+        <option value="#pastor">Pastor alemán</option>
+        <option value="#golden">Golden retriever</option>
+        <option value="#husky">Husky siberiano</option>
+        <option value="#rot">Rottweiler</option>
+        <option value="#beagle">Beagle</option>
+        <option value="#border">Border collie</option>
+    </select>
+    <br>
+    <br>
+
+    <div class="pastor" id="pastor">
+        <img src="pastor aleman.jpg">
+        <h5>Pastor aleman</h5>
+        <p> también conocido como ovejero alemán, es una raza de perro pastor originaria de Alemania de tamaño mediano a grande. La raza es relativamente nueva, ya que su origen se remonta a 1899. son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro militar, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9.</p>
+    </div>
+
+    <div class="golden" id="golden">
+        <img src="golden.jpg">
+        <h5>Golden retriever</h5>
+        <p>es una raza de perro cobrador que se desarrolló alrededor de 1850 en el Reino Unido, concretamente en Escocia. Con sus características de perro cobrador, sabueso, bloodhound y spaniel de agua, es un hábil perro de caza con aptitudes para el rastreo. Posee una disposición amigable y una actitud que lo ha convertido en una de las razas familiares más populares</p>
+    </div>
+
+    <div class="husky" id="husky">
+        <img src="Siberian-husky.jpg">
+        <h5>Husky siberiano</h5>
+        <p>es una raza de perro de trabajo originaria del norte de Siberia en Rusia. Este perro fue creado por la tribu Chukchi como perro de trabajo para tirar de los trineos a través de largas distancias durante sus partidas de caza, sirviendo así como vehículo de transporte rápido para las presas en la vuelta al poblado. Debido a las condiciones climáticas de sus tierras natales, su pelaje no solo les servía como protección propia ante tan bajas temperaturas, sino que también les brindó un lugar dentro de las tiendas de la tribu, ayudando a mantener calientes a los niños durante la noche</p>
+    </div>
+
+    <div class="rot">
+        <img src="rottweiler.jpg">
+        <h5>Rottweiler</h5>
+        <p>es una raza canina de tipo molosoide originaria de Alemania, aunque fue también usado en la antigua Roma. Era conocido como «perro carnicero de Rottweil» porque estaba acostumbrado a proteger y pastorear ganado y tirar de los carritos de carnicería cargados de carne, junto con otros productos para el mercado</p>
+    </div>
+
+    <div class="beagle" id="beagle">
+        <img src="beagle.jpg">
+        <h5>Beagle</h5>
+        <p>es una raza de perro de tamaño pequeño a mediano. Tiene un aspecto similar al foxhound, pero de menor tamaño, con patas más cortas y orejas más largas y caídas. Su gran capacidad olfativa e instinto de rastreo hace que se utilicen como perros de detección de importaciones agrícolas prohibidas y productos alimenticios en cuarentena a lo largo de todo el mundo. Son animales inteligentes, y populares como animales domésticos debido a su talla, carácter tranquilo y carencia de problemas de salud congénitos.</p>
+    </div>
     
+    <div class="border" id="border">
+        <img src="Border.jpg">
+        <h5>Border collie</h5>
+        <p>es una raza de perro de trabajo incluido dentro de la denominación Collie. La raza surgió en la frontera entre Escocia e Inglaterra como perro pastor, sobre todo para trabajar con rebaños de ovejas. El border collie fue seleccionado sobre todo para enfatizar su inteligencia y su obediencia; debido a esto, son uno de los perros pastores más populares en la actualidad.</p>
+    </div>
+    <br>
+    <br>
 </body>
+
+<footer>
+    <button onclick="window.scrollTo(0, 0)">Volver al inicio</button>
+</footer>
 </html>

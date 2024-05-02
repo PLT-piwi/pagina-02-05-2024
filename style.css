@@ -1,0 +1,78 @@
+header{
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    height: 100px;
+}
+
+header h1{
+    text-align: center;
+    padding: 25px;
+}
+
+img{
+    float: left;
+    width: 230px;
+    margin: 12px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: aqua;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+.pastor{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+.golden{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+.husky{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+.rot{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+.beagle{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+.border{
+    float: left;
+    text-align: justify;
+    background-color:lightcyan;
+}
+
+select{
+    color: black;
+    background-color: lightblue;
+}
+
+footer{
+    background-color: lightblue;
+}
+
+button{
+    color: black;
+    background-color: lightcyan;
+    float: right;
+    width: 200px;
+}
